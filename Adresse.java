@@ -1,12 +1,12 @@
-
-public class Adresse { // une classe pour adresse pour crée un type adresse pour les attribut des autre classe
-	private int numeroDeRue;
-	private String nomDeRue;
-	private long codePostal;
-	private String ville;
+//( "//" sami comments , "/* */" hind comments )
+public class Adresse { // une classe pour adresse pour crée un type adresse pour les attribut des autre classe /* i agree*/
+	private int numeroDeRue;/*préférable nommer NumRue*/
+	private String nomDeRue;/*nommer NomRue*/
+	private long codePostal;/* i agree */
+	private String ville;/* not necessary , since you used CodePostal */
 	
 	// constructeur pour la classe Adresse 
-	
+	/* class adresse does not inherit any other classe , so u can delete the super() of Adresse constructor*/
 	
 	public Adresse(int numeroDeRue, String nomDeRue, long codePostal, String ville) {
 		super();
@@ -21,7 +21,7 @@ public class Adresse { // une classe pour adresse pour crée un type adresse pou
 	
 	
 	// getter et setter pour NumeroDeRue
-	
+	/* NumRue getter and setter : Check */
 	public int getNumeroDeRue() {
 		return numeroDeRue;
 	}
@@ -30,7 +30,7 @@ public class Adresse { // une classe pour adresse pour crée un type adresse pou
 	}
 	
 	//getter et setter pour nomRue
-	
+	/* NomRue getter and setter : Check */
 	
 	public String getNomDeRue() {
 		return nomDeRue;
@@ -40,7 +40,7 @@ public class Adresse { // une classe pour adresse pour crée un type adresse pou
 	}
 	
 	//getter et setter pour codePosttal
-	
+	/* CodePostal getter and setter : Check */
 	
 	public long getCodePostal() {
 		return codePostal;
@@ -50,7 +50,7 @@ public class Adresse { // une classe pour adresse pour crée un type adresse pou
 	}
 	
 	//getter et setter pour ville
-	
+	/* ville getter and setter : Check */
 	
 	public String getVille() {
 		return ville;
